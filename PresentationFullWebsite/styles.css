@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background: #1C1C1C;    
+}
+
+nav #navigationList {
+    height: 50px;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+}
+
+nav #navigationList li { 
+    padding-right: 15px;
+}
+
+nav #navigationList li a { 
+    color: white;
+    text-decoration: none;
+}
+
+
+header #imageBanner {
+    height: 225px;
+    background: url('meadow.jpg');
+
+    display: flex;
+    justify-content: center;;
+}
+
+header #imageBanner h1 {
+    align-self: center;
+
+    margin: 0;
+    padding: 40px;
+    color: white;
+    background: rgba(0,0,0,0.8);
+    border-radius: 15px;
+}
+
+#cards {
+    background: #efefef;
+    padding: 25px;
+
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 320px) {
+    #cards {
+        flex-direction: column;
+    }
+}
+
+#cards section {
+    background: #c4c4c4;
+    margin: 15px;
+    padding: 15px;
+}
+
+#cards section button {
+    width: 100%;
+    height: 25px;
+    border-color: transparent;
+    border-radius: 15px;
+    color: white;
+}
+
+#button1 {
+        background: green;
+}
+#button2 {
+    background: red;
+}
+#button3 {
+    background: blue;
+}
+
+
+article {
+    padding: 25px;
+}
+
+.ingress {
+    font-weight: bold;
+}
+
+article img {
+    float: left;
+    margin-right: 15px;
+}
+
+footer {
+    height: 135px;
+    padding: 25px;
+    background: #1C1C1C;
+    color: white;
+}
+
+@media (max-width: 320px) {
+    footer {
+        height: 100%;
+    }
+}
+
+footer form {
+    display: flex;
+}
+
+@media (max-width: 320px) {
+    footer form {
+        flex-direction: column;
+    }
+}
+
+footer form input {
+    display: block;
+    margin-right: 20px;
+}

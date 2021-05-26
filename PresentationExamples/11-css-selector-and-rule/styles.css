@@ -1,0 +1,12 @@
+/* Eksempel på en element selector */ 
+h1 { /* velger alle h1 elementer */
+    color: red;  /* Påfører regelen om at de skal være røde */
+}
+
+#header2 { /* Eksempel på en id selector, hvor vi går rett på en ID attribut */
+    color: blue;
+}
+
+.paragraph { /* Klasse selector, hvor vi går på en klasse attributet */
+    color: green;
+}

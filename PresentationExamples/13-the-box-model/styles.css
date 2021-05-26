@@ -1,0 +1,19 @@
+#boxWrapper {
+    width: 400px;
+    height: 400px;
+    background-color: silver;
+}
+
+#theBox {
+    width: 200px;
+    height:200px;
+    /* background-color: tomato;
+    margin: 25px;
+    padding:25px;
+    border: 5px solid black; */
+}
+
+#theBox {
+    width: 200px;
+    height:200px;
+}
